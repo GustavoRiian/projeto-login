@@ -4,6 +4,7 @@
 PALETA DE CORES
 VERDE: #49a09d
 Lilás: #5f2c82
+background-image: linear-gradient(to bottom right, #F58634 40%, #FFC812 70%);
 */
 
 *{
@@ -14,7 +15,7 @@ Lilás: #5f2c82
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top, #f8822f , #ffcf33);
     height: 100vh;
     width: 100vh;
 }
@@ -39,6 +40,11 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.341);
+
+    /*TRANSIÇÃO QUANDO MUDAR O TAMANHO DA TELA.*/
+    transition: width 0.4s, height 0.4s;
+    /*DA UMA SUAVIZADA DURANTE A ANIMAÇÃO.*/
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
