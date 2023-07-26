@@ -10,12 +10,13 @@ GRANDES TELAS: ACIMA DE 1200PX
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    body {
+    body { /*-----CONFIGURAÇÃO PARA TABLET-----*/
         background-image: linear-gradient(to top, #f8822f , #ffcf33);
     }
 
     section#login{
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem{
@@ -25,7 +26,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     section#login > div#formulario {
-        float: right; /*ESQUERDA*/
+        float: right; /*DIREITA*/
         width: 65%;
     }
 
@@ -35,16 +36,21 @@ GRANDES TELAS: ACIMA DE 1200PX
 
     div#formulario > p{
         font-size: 1em;
+        margin: 10px 0px;
+/*MARGENS EX: 10PX TOP/BOTTOM = CIMA/BAIXO
+               0PX LEFT/RIGHT = ESQUERDA/DIREITA
+*/
     }
 }
 
 @media screen and (min-width: 992px){
-    body {
+    body { /*-----CONFIGURAÇÃO DESKTOP-----*/
         background-image: linear-gradient(to top, #f8822f, #ffcf33);
     }
 
     section#login {
         width: 960px;
+        height: 360px;
     }
 
     section#login > div#imagem{
@@ -63,6 +69,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin: 20px 0px;
     }
 }
