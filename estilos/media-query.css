@@ -12,6 +12,8 @@ GRANDES TELAS: ACIMA DE 1200PX
 @media screen and (min-width: 768px) and (max-width: 992px){
     body { /*-----CONFIGURAÇÃO PARA TABLET-----*/
         background-image: linear-gradient(to top, #f8822f , #ffcf33);
+        height: 100vh; /*ALTURA*/
+        width: 100vh; /*LARGURA*/
     }
 
     section#login{

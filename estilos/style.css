@@ -16,8 +16,8 @@ background-image: linear-gradient(to bottom right, #F58634 40%, #FFC812 70%);
 
 body, html{
     background-image: linear-gradient(to top, #f8822f , #ffcf33);
-    height: 100vh;
-    width: 100vh;
+    height: 100vh; /*ALTURA*/
+    width: 100vh; /*LARGURA*/
 }
 
 main{
@@ -102,8 +102,8 @@ div.campo > input {
     background-color:rgb(248, 248, 248);
     font-size: 0.9em;
 /*USADO PARA FAZER*/
-    width: calc(100% - 45px);
-    height: 100%; /*LARGURA*/
+    width: calc(100% - 45px); /*LARGURA*/
+    height: 100%; /*ALTURA*/
     border: 0px;
     border-radius: 8px;
     padding: 5px;
@@ -115,7 +115,7 @@ form > input[type=submit]{
     display: block; /*PARA FICAR NUMA LINHA UNICA*/
     font-size: 1em; /*TAMANHO FONT*/
     width: 100%;
-    height: 30px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
     background-color: #f8822f;
     color: white;
     border: none; /*TIRAR BORDA*/
