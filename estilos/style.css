@@ -17,7 +17,7 @@ background-image: linear-gradient(to bottom right, #F58634 40%, #FFC812 70%);
 body, html{
     background-image: linear-gradient(to top, #f8822f , #ffcf33);
     height: 100vh; /*ALTURA*/
-    width: 100vh; /*LARGURA*/
+    width: 100wh; /*LARGURA*/
 }
 
 main{
